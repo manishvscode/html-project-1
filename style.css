@@ -1,0 +1,70 @@
+*{
+    margin: 0%;      /* to set the browser properly*/
+    padding: 0%;       /* to set the browser properly*/
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(43, 219, 207);
+    min-height: 100vh;           
+    border: 10px solid black;
+}
+.content{
+    max-width: 1200px;          /* to provide space from border to image*/
+    margin: 0 auto;
+}
+.image_container, img{
+    height: 300px;
+    width: 250px;
+    /* border: 5px solid black; */
+   
+
+}
+img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.top_section{
+    margin-top: 75px;
+    display: flex; /* to sepate the content */
+    justify-content: space-between; /*to provide the space between to section image and DR A P J Abdul kalam */
+    align-items: flex-end;
+
+}
+.top_section h1{         /*top section h1 tag*/
+    font-size:40px;
+    font-weight: bold;
+}
+.top_section h4{
+    text-align: end;   /*to shift the h4 tag in the last of the screen*/
+    font-size: 20px;
+}
+.about_section h2{
+    margin-top: 70px;   /*to provie space between top section and about section*/
+    font-weight: 400 bold;
+    font-size: 30px;
+    margin-bottom: 20px; /*providing space b/w h2 and p tags*/
+    letter-spacing: 1.3px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px; /*providing sapce b/w the lines */
+    letter-spacing: 1px; 
+    margin-bottom: 100px;
+    text-align: justify; /*to make paragraf same in right side*/
+}  
+.footer{
+    margin-bottom: 10px;
+    /* align-items: end; */
+    text-align: right;
+}
+.footer a{
+    color: blue;
+    font-weight: bold;
+    
+    /* margin-bottom: 20px; */
+}
+.footer a:hover{
+    color: red;
+  
+}
+
